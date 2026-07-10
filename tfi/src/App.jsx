@@ -2,7 +2,7 @@ import { Header } from './components/Header.jsx';
 import { GamePanel } from './components/GamePanel.jsx';
 import { ChainSection } from './components/ChainSection.jsx';
 import { Leaderboard } from './components/Leaderboard.jsx';
-import './styles.css'; 
+import './App.css'; 
 
 function App() {
   return (

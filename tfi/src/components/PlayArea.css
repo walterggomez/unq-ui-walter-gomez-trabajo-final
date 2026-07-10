@@ -1,0 +1,42 @@
+.play-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 28px;
+  margin-top: 46px;
+}
+.input-zone {
+  display: grid;
+  gap: 18px;
+}
+.input-zone h1 {
+  margin: 0;
+  color: #071226;
+  font-size: clamp(1.75rem, 3vw, 2.3rem);
+  line-height: 1.1;
+}
+.eyebrow {
+  margin: 0 0 8px;
+  color: #3f3a9b;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.feedback {
+  min-height: 46px;
+  margin: 0;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-weight: 700;
+}
+.feedback.info {
+  color: #334155;
+  background: #eef2ff;
+}
+.feedback.success {
+  color: #166534;
+  background: #dcfce7;
+}
+.feedback.danger {
+  color: #991b1b;
+  background: #fee2e2;
+}

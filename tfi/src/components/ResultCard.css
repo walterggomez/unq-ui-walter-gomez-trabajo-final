@@ -1,0 +1,15 @@
+.result-card {
+  border: 1px solid #e8edf4;
+  border-radius: 8px;
+  padding: 22px;
+  background: #fbfcff;
+}
+.result-card h2{
+  margin: 0;
+  color: #071226;
+  font-size: 1.35rem;
+}
+.result-card p {
+  margin: 8px 0 0;
+  color: #566174;
+}
