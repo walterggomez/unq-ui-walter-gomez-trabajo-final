@@ -1,0 +1,14 @@
+.gamePanel {
+  padding: clamp(24px, 5vw, 48px);
+  border: 1px solid #ecf0f6;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 22px 48px rgba(25, 34, 62, 0.08);
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: start;
+  gap: 20px;
+}

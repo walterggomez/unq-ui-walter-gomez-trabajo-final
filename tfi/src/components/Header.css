@@ -1,0 +1,26 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  min-height: 66px;
+  border-bottom: 1px solid #e7ebf2;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #3f3a9b;
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.brandMark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff71bb, #ef4da0 45%, #7854f0);
+  box-shadow: 0 12px 24px rgba(128, 83, 240, 0.18);
+}
