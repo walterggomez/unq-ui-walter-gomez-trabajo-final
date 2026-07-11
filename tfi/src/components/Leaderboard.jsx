@@ -1,4 +1,4 @@
-import './Leaderboard.css';
+import '../styles/Leaderboard.css';
 
 export function Leaderboard({ leaderboard, onClear }) {
   return (
@@ -13,7 +13,7 @@ export function Leaderboard({ leaderboard, onClear }) {
       </div>
 
       {leaderboard.length === 0 ? (
-        <p className="empty-chain">Juga una partida para guardar tu primer puntaje.</p>
+        <p className="emptyChain">Juga una partida para guardar tu primer puntaje.</p>
       ) : (
         <ol>
           {leaderboard.map((entry, index) => (

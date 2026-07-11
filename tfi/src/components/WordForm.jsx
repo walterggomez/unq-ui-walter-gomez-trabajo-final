@@ -1,4 +1,4 @@
-import './WordFrom.css';
+import '../styles/WordForm.css';
 
 export function WordForm() {
   return (

@@ -1,4 +1,4 @@
-import './Stat.css';
+import '../styles/Stat.css';
 export function Stat({ label, value, accent = false, danger = false }) {
   return (
     <div className="stat">

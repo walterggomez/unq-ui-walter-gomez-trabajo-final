@@ -1,9 +1,9 @@
-import './ChainSection.css';
+import '../styles/ChainSection.css';
 
 export function ChainSection({ words }) {
   return (
-    <article className="rules-section">
-      <div className="section-heading">
+    <article className="rulesSection">
+      <div className="sectionHeading">
         <span aria-hidden="true">⛓️</span>
         <div>
           <h2>Palabras Encadenadas</h2>
@@ -11,12 +11,12 @@ export function ChainSection({ words }) {
         </div>
       </div>
 
-      <div className="chain-list" aria-live="polite">
+      <div className="chainList" aria-live="polite">
         {words.length === 0 ? (
-          <p className="empty-chain">Todavia no hay palabras en la cadena.</p>
+          <p className="emptyChain">Todavia no hay palabras en la cadena.</p>
         ) : (
           words.map((word, index) => (
-            <span className="word-chip" key={`${word}-${index}`}>
+            <span className="wordChip" key={`${word}-${index}`}>
               {word}
             </span>
           ))

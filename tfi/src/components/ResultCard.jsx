@@ -1,4 +1,4 @@
-import './ResultCard.css';
+import '../styles/ResultCard.css';
 
 export function ResultCard({ isFinished, wordsCount }) {
   return (

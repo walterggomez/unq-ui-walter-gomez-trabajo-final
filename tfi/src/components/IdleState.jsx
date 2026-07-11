@@ -1,4 +1,4 @@
-import './IdleState.css';
+import '../styles/IdleState.css';
 
 export function IdleState({ onStartGame }) {
   return (
