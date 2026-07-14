@@ -12,7 +12,7 @@ Trabajo Final Integrador de UIs desarrollado con React por Walter Gomez. 2026s1
 
 ```bash
 git clone https://github.com/walterggomez/unq-ui-walter-gomez-trabajo-final.git
-cd unq-ui-walter-gomez-trabajo-final/tfi
+cd unq-ui-walter-gomez-trabajo-final
 ```
 
 ## Instalacion
