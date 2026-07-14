@@ -1,0 +1,22 @@
+.word-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+}
+
+.word-form input {
+  width: 100%;
+  min-height: 58px;
+  border: 1px solid #d9dfeb;
+  border-radius: 8px;
+  padding: 0 18px;
+  color: #081226;
+  background: #fbfcff;
+  font-size: 1.08rem;
+  outline: none;
+}
+
+.word-form input:focus {
+  border-color: #3f36a8;
+  box-shadow: 0 0 0 4px rgba(63, 54, 168, 0.12);
+}

@@ -1,0 +1,27 @@
+.heroState {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  max-width: 680px;
+  margin: 58px auto 30px;
+  text-align: center;
+}
+
+.heroState h1 {
+  margin: 0;
+  color: #071226;
+  font-size: clamp(1.75rem, 3vw, 2.3rem);
+  line-height: 1.1;
+}
+
+.heroState p {
+  max-width: 680px;
+  margin: 0 0 18px;
+  color: #4f5a6e;
+  font-size: 1.12rem;
+  line-height: 1.5;
+}
+
+.gameIcon {
+  font-size: 2.25rem;
+}
